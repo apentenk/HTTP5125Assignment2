@@ -16,13 +16,13 @@ namespace Assignment2.Controllers
         /// <param name="input">represents the word being typed</param>
         /// <returns>A message detailing the minimal number of seconds to type the input word</returns>
         /// <example>
-        /// localhost:xx/api/J3/PhoneMessaging/dada => "This word takes 4 seconds to type"
+        /// GET localhost:xx/api/J3/PhoneMessaging/dada => "This word takes 4 seconds to type"
         /// </example>
         /// <example>
-        /// localhost:xx/api/J3/PhoneMessaging/abba => "This word takes 12 seconds to type"
+        /// GET localhost:xx/api/J3/PhoneMessaging/abba => "This word takes 12 seconds to type"
         /// </example>
         /// <example>
-        /// localhost:xx/api/J3/PhoneMessaging/cell => "This word takes 13 seconds to type"
+        /// GET localhost:xx/api/J3/PhoneMessaging/cell => "This word takes 13 seconds to type"
         /// </example>
         [HttpGet]
         [Route("api/J3/PhoneMessaging/{input}")]

@@ -17,10 +17,10 @@ namespace Assignment2.Controllers
         /// <param name="dessert">integer representing the dessert item the customer ordered</param>
         /// <returns>A message detailing the total calories ordered by a customer</returns>
         /// <example>
-        /// localhost:xx/api/J1/Menu/4/4/4/4 => “Your total calorie count is 0”
+        /// GET localhost:xx/api/J1/Menu/4/4/4/4 => “Your total calorie count is 0”
         /// </example>
         /// <example>
-        /// localhost:xx/api/J1/Menu/1/2/3/4 => “Your total calorie count is 691”
+        /// GET localhost:xx/api/J1/Menu/1/2/3/4 => “Your total calorie count is 691”
         /// </example>
         [HttpGet]
         [Route("api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]

@@ -15,16 +15,16 @@ namespace Assignment2.Controllers
         /// <param name="diceTwo">represents the number of sides of the second die</param>
         /// <returns>A string detailing the amount of different ways to you can roll 10</returns>
         /// <example>
-        /// localhost:xx/api/J2/DiceGame/6/8 => "There are 5 ways to get the sum 10"
+        /// GET localhost:xx/api/J2/DiceGame/6/8 => "There are 5 ways to get the sum 10"
         /// </example>
         /// <example>
-        /// localhost:xx/api/J2/DiceGame/12/4 => "There are 4 ways to get the sum 10"
+        /// GET localhost:xx/api/J2/DiceGame/12/4 => "There are 4 ways to get the sum 10"
         /// </example>
         /// <example>
-        /// localhost:xx/api/J2/DiceGame/3/3 => "There are 0 ways to get the sum 10"
+        /// GET localhost:xx/api/J2/DiceGame/3/3 => "There are 0 ways to get the sum 10"
         /// </example>
         /// <example>
-        /// localhost:xx/api/J2/DiceGame/5/5 => "There is 1 ways to get the sum 10"
+        /// GET localhost:xx/api/J2/DiceGame/5/5 => "There is 1 ways to get the sum 10"
         /// </example>
         [HttpGet]
         [Route("api/J2/DiceGame/{diceOne}/{diceTwo}")]
